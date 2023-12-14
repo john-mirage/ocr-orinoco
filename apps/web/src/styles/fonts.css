@@ -1,0 +1,34 @@
+/* cabin-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Cabin";
+  font-style: normal;
+  font-weight: 400;
+  src: url("@fonts/cabin-v26-latin-regular.woff2") format("woff2"),
+    url("@fonts/cabin-v26-latin-regular.woff") format("woff");
+}
+/* cabin-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Cabin";
+  font-style: normal;
+  font-weight: 500;
+  src: url("@fonts/cabin-v26-latin-500.woff2") format("woff2"),
+    url("@fonts/cabin-v26-latin-500.woff") format("woff");
+}
+/* cabin-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Cabin";
+  font-style: normal;
+  font-weight: 600;
+  src: url("@fonts/cabin-v26-latin-600.woff2") format("woff2"),
+    url("@fonts/cabin-v26-latin-600.woff") format("woff");
+}
+
+:root {
+  font-family: "Cabin", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
