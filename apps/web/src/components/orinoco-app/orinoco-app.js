@@ -1,9 +1,9 @@
 import componentTemplate from "./orinoco-app.template";
 import componentStyles from "./orinoco-app.style";
 
-const HOME_ROUTE = "/orinoco/";
-const PRODUCT_ROUTE = "/orinoco/produit";
-const CART_ROUTE = "/orinoco/panier";
+const HOME_ROUTE = "/";
+const PRODUCT_ROUTE = "/produit";
+const CART_ROUTE = "/panier";
 
 class OrinocoApp extends HTMLElement {
   #hasBeenMountedOnce = false;

@@ -4,7 +4,7 @@ componentTemplate.innerHTML = `
   <header>
     <orinoco-container>
       <orinoco-row>
-        <orinoco-link href="/orinoco/" slot="left">
+        <orinoco-link href="/" slot="left">
           <orinoco-logo></web-logo>
         </orinoco-link>
         <orinoco-theme-icon-button slot="right"></orinoco-theme-icon-button>
