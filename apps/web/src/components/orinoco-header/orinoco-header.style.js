@@ -6,15 +6,12 @@ componentStyles.replaceSync(`
   :host {
     --header-width: 100%;
     --header-height: ${pxToRem(56)};
-    --header-background-color: var(--md-sys-color-surface);
-    --header-box-shadow: none;
-    --header-transition-duration: 150ms;
+    --header-color-border: var(--color-shadow);
 
     display: block;
     width: var(--header-width);
     height: var(--header-height);
-    background-color: var(--header-background-color);
-    box-shadow: var(--header-box-shadow);
+    border-bottom: 1px solid var(--header-color-border);
   }
 
   header {
@@ -23,13 +20,6 @@ componentStyles.replaceSync(`
 
   orinoco-row {
     height: 100%;
-  }
-  
-  @media screen and (prefers-reduced-motion: no-preference) {
-    :host {
-      transition-property: background-color;
-      transition-duration: var(--header-transition-duration);
-    }
   }
 `);
 

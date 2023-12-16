@@ -7,14 +7,15 @@ componentStyles.replaceSync(`
     --_button-height: ${pxToRem(48)};
     --_button-padding: ${pxToRem(8)} ${pxToRem(24)};
     --_button-border-radius: 9999px;
-    --_button-background-color: var(--md-sys-color-tertiary);
-    --_button-color: var(--md-sys-color-on-tertiary);
+    --_button-background-color: var(--color-primary);
+    --_button-color: var(--color-on-primary);
     --_button-font-family: var(--md-sys-typescale-label-medium-font-family-name);
     --_button-font-weigth: var(--md-sys-typescale-label-medium-font-weight);
     --_button-font-size: var(--md-sys-typescale-label-medium-font-size);
     --_button-line-height: var(--md-sys-typescale-label-medium-line-height);
     --_button-letter-spacing: var(--md-sys-typescale-label-medium-letter-spacing);
     --_button-transition-duration: 150ms;
+    
     display: block;
   }
 

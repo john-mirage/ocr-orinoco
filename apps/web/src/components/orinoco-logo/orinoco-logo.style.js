@@ -2,9 +2,9 @@ const componentStyles = new CSSStyleSheet();
 
 componentStyles.replaceSync(`
   :host {
-    --logo-camera-body-color: var(--md-sys-color-outline);
-    --logo-camera-flash-color: var(--md-sys-color-outline-variant);
-    --logo-text-color: var(--md-sys-color-on-surface);
+    --logo-camera-body-color: var(--color-logo-camera);
+    --logo-camera-flash-color: var(--color-logo-camera-lens);
+    --logo-text-color: var(--color-logo-typo);
     
     display: block;
   }

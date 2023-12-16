@@ -15,7 +15,7 @@ componentStyles.replaceSync(`
     --_hero-title-font-size: var(--md-sys-typescale-headline-large-font-size);
     --_hero-title-line-height: var(--md-sys-typescale-headline-large-line-height);
     --_hero-title-letter-spacing: var(--md-sys-typescale-headline-large-letter-spacing);
-    --_hero-title-color: var(--md-sys-color-on-tertiary-container);
+    --_hero-title-color: var(--color-on-primary-container);
 
     --_hero-description-max-width: 40rem;
     --_hero-description-font-stack: var(--md-sys-typescale-body-large-font-family-name);
@@ -23,7 +23,7 @@ componentStyles.replaceSync(`
     --_hero-description-font-size: var(--md-sys-typescale-body-large-font-size);
     --_hero-description-line-height: var(--md-sys-typescale-body-large-line-height);
     --_hero-description-letter-spacing: var(--md-sys-typescale-body-large-letter-spacing);
-    --_hero-description-color: var(--md-sys-color-on-tertiary-container);
+    --_hero-description-color: var(--color-on-primary-container-variant);
     --_hero-transition-duration: 150ms;
 
     margin-top: var(--_hero-margin);

@@ -4,11 +4,6 @@ import { resolve } from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
   base: "/orinoco/",
-  css: {
-    modules: {
-      generateScopedName: "[local]",
-    },
-  },
   resolve: {
     alias: {
       "@api": resolve(__dirname, "src/api"),
