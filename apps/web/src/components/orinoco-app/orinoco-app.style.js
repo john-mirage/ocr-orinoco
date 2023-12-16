@@ -2,7 +2,7 @@ const componentStyles = new CSSStyleSheet();
 
 componentStyles.replaceSync(`
   :host {
-    --app-background-color: var(--color-background);
+    --app-background-color: var(--md-sys-color-background);
     
     display: block;
     overflow: hidden;
