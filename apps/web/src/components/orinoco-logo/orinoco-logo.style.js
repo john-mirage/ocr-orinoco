@@ -2,9 +2,9 @@ const componentStyles = new CSSStyleSheet();
 
 componentStyles.replaceSync(`
   :host {
-    --logo-camera-body-color: var(--color-logo-camera);
-    --logo-camera-flash-color: var(--color-logo-camera-lens);
-    --logo-text-color: var(--color-logo-typo);
+    --_logo-camera-body-color: var(--md-sys-color-primary-container);
+    --_logo-camera-flash-color: var(--md-sys-color-on-primary-container);
+    --_logo-text-color: var(--md-sys-color-on-primary-container);
     
     display: block;
   }
@@ -16,15 +16,15 @@ componentStyles.replaceSync(`
   }
 
   .icon__camera-body {
-    color: var(--logo-camera-body-color);
+    color: var(--_logo-camera-body-color);
   }
 
   .icon__camera-flash {
-    color: var(--logo-camera-flash-color);
+    color: var(--_logo-camera-flash-color);
   }
 
   .icon__text {
-    color: var(--logo-text-color);
+    color: var(--_logo-text-color);
   }
 `);
 
