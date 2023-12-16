@@ -5,7 +5,7 @@ componentTemplate.innerHTML = `
     <orinoco-container>
       <orinoco-row>
         <p slot="left">Copyright Orinoco</p>
-        <orinoco-link href="/orinoco/" slot="right">
+        <orinoco-link href="/" slot="right">
           <orinoco-logo></orinoco-logo>
         </orinoco-link>
       </orinoco-row>
