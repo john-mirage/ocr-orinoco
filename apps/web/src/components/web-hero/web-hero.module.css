@@ -1,0 +1,62 @@
+.web-hero {
+  --_hero-margin: 3rem; /* 48px */
+  --_hero-container-padding: 3rem; /* 48px */
+  --_hero-container-background-color: var(--md-sys-color-tertiary-container);
+  --_hero-container-border-radius: 1rem;
+
+  --_hero-title-max-width: 44rem;
+  --_hero-title-font-stack: var(--md-sys-typescale-headline-large-font-family-name);
+  --_hero-title-font-weight: var(--md-sys-typescale-headline-large-font-weight);
+  --_hero-title-font-size: var(--md-sys-typescale-headline-large-font-size);
+  --_hero-title-line-height: var(--md-sys-typescale-headline-large-line-height);
+  --_hero-title-letter-spacing: var(--md-sys-typescale-headline-large-letter-spacing);
+  --_hero-title-color: var(--md-sys-color-on-tertiary-container);
+
+  --_hero-description-max-width: 40rem;
+  --_hero-description-font-stack: var(--md-sys-typescale-body-large-font-family-name);
+  --_hero-description-font-weight: var(--md-sys-typescale-body-large-font-weight);
+  --_hero-description-font-size: var(--md-sys-typescale-body-large-font-size);
+  --_hero-description-line-height: var(--md-sys-typescale-body-large-line-height);
+  --_hero-description-letter-spacing: var(--md-sys-typescale-body-large-letter-spacing);
+  --_hero-description-color: var(--md-sys-color-on-tertiary-container);
+  --_hero-transition-duration: 150ms;
+
+  margin-top: var(--_hero-margin);
+  margin-bottom: var(--_hero-margin);
+  display: block;
+}
+
+.web-hero__container {
+  padding: var(--_hero-container-padding);
+  background-color: var(--_hero-container-background-color);
+  border-radius: var(--_hero-container-border-radius);
+}
+
+.web-hero__title {
+  margin-bottom: 1.5rem; /* 24px */
+  max-width: var(--_hero-title-max-width);
+  font-family: var(--_hero-title-font-stack);
+  font-weight: var(--_hero-title-font-weight);
+  font-size: var(--_hero-title-font-size);
+  line-height: var(--_hero-title-line-height);
+  letter-spacing: var(--_hero-title-letter-spacing);
+  color: var(--_hero-title-color);
+}
+
+.web-hero__description {
+  margin-bottom: 2rem; /* 32px */
+  max-width: var(--_hero-description-max-width);
+  font-family: var(--_hero-description-font-stack);
+  font-weight: var(--_hero-description-font-weight);
+  font-size: var(--_hero-description-font-size);
+  line-height: var(--_hero-description-line-height);
+  letter-spacing: var(--_hero-description-letter-spacing);
+  color: var(--_hero-description-color);
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  .web-hero {
+    transition-property: background-color;
+    transition-duration: var(--_hero-transition-duration);
+  }
+}

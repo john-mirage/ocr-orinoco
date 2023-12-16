@@ -1,0 +1,7 @@
+.web-page {
+  display: block;
+}
+
+.web-page--top-padding {
+  padding-top: 4rem; /* 64px */
+}

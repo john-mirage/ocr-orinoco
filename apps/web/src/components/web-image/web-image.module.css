@@ -1,0 +1,35 @@
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}
+
+.web-image {
+  --_image-aspect-ratio: 16 / 9;
+  --_image-placeholder-color: var(--md-sys-color-surface-3);
+
+  position: relative;
+  display: block;
+  overflow: hidden;
+  aspect-ratio: var(--_image-aspect-ratio);
+}
+
+.web-image__image {
+  position: relative;
+  z-index: 50;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.web-image__placeholder {
+  position: absolute;
+  z-index: 10;
+  inset: 0;
+  display: block;
+  background-color: var(--_image-placeholder-color);
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

@@ -1,0 +1,19 @@
+.web-icon-button {
+  position: relative;
+  display: block;
+}
+
+.web-icon-button__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+}
+
+.web-icon-button__badge {
+  position: absolute;
+  top: -0.5rem;
+  left: 1.75rem;
+}

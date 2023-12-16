@@ -1,0 +1,21 @@
+.web-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.web-grid--cols-3 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media screen and (min-width: 768px) {
+  .web-grid--cols-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .web-grid--cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 3rem;
+  }
+}

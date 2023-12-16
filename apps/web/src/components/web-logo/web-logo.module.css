@@ -1,0 +1,28 @@
+.web-logo {
+  --_logo-camera-body-color: var(--md-sys-color-primary-container);
+  --_logo-camera-flash-color: var(--md-sys-color-on-primary-container);
+  --_logo-text-color: var(--md-sys-color-on-primary-container);
+
+  display: block;
+}
+
+.web-logo__link {
+  display: block;
+}
+
+.web-logo__icon {
+  width: 122px;
+  height: 32px;
+}
+
+.web-logo__camera-body {
+  color: var(--_logo-camera-body-color);
+}
+
+.web-logo__camera-flash {
+  color: var(--_logo-camera-flash-color);
+}
+
+.web-logo__text {
+  color: var(--_logo-text-color);
+}

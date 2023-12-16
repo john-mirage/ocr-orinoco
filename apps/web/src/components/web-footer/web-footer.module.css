@@ -1,0 +1,67 @@
+.web-footer {
+  --_footer-padding-bottom: 2rem; /* 16px */
+
+  --_footer-container-background-color: var(--md-sys-color-surface-1);
+  --_footer-container-border-radius: 1.5rem; /* 24px */
+  --_footer-container-padding: 2rem; /* 32px */
+  --_footer-container-transition-duration: 150ms;
+
+  --_footer-row-border-top-size: 0.0625rem; /* 1px */
+  --_footer-row-border-top-style: solid;
+  --_footer-row-border-top-color: var(--md-sys-color-outline-variant);
+
+  --_footer-copyright-font-family: var(--md-sys-typescale-body-medium-font-family-name);
+  --_footer-copyright-font-weight: var(--md-sys-typescale-body-medium-font-weight);
+  --_footer-copyright-font-size: var(--md-sys-typescale-body-medium-font-size);
+  --_footer-copyright-line-height: var(--md-sys-typescale-body-medium-line-height);
+  --_footer-copyright-letter-spacing: var(--md-sys-typescale-body-medium-letter-spacing);
+  --_footer-copyright-color: var(--md-sys-color-on-surface-variant);
+
+  display: block;
+  background-color: var(--_footer-container-background-color);
+}
+
+.web-footer__feature-list {
+  padding-top: var(--_footer-container-padding);
+  padding-bottom: var(--_footer-container-padding);
+}
+
+.web-footer__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: var(--_footer-row-border-top-size) var(--_footer-row-border-top-style) var(--_footer-row-border-top-color);
+}
+
+.web-footer__row-section {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.web-footer__row-section--left {
+  justify-content: flex-start;
+}
+
+.web-footer__row-section--right {
+  justify-content: flex-end;
+}
+
+.web-footer__copyright {
+  font-family: var(--_footer-copyright-font-family);
+  font-weight: var(--_footer-copyright-font-weight);
+  font-size: var(--_footer-copyright-font-size);
+  line-height: var(--_footer-copyright-line-height);
+  letter-spacing: var(--_footer-copyright-letter-spacing);
+  color: var(--_footer-copyright-color);
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  .web-footer__container {
+    transition-property: background-color;
+    transition-duration: var(--_footer-container-transition-duration);
+  }
+}

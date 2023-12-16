@@ -1,34 +1,15 @@
-/* cabin-regular - latin */
 @font-face {
+  font-family: "Inter var";
+  font-weight: 100 900;
   font-display: swap;
-  font-family: "Cabin";
   font-style: normal;
-  font-weight: 400;
-  src: url("@fonts/cabin-v26-latin-regular.woff2") format("woff2"),
-    url("@fonts/cabin-v26-latin-regular.woff") format("woff");
-}
-/* cabin-500 - latin */
-@font-face {
-  font-display: swap;
-  font-family: "Cabin";
-  font-style: normal;
-  font-weight: 500;
-  src: url("@fonts/cabin-v26-latin-500.woff2") format("woff2"),
-    url("@fonts/cabin-v26-latin-500.woff") format("woff");
-}
-/* cabin-600 - latin */
-@font-face {
-  font-display: swap;
-  font-family: "Cabin";
-  font-style: normal;
-  font-weight: 600;
-  src: url("@fonts/cabin-v26-latin-600.woff2") format("woff2"),
-    url("@fonts/cabin-v26-latin-600.woff") format("woff");
+  font-named-instance: "Regular";
+  src: url("@fonts/Inter-roman.var.woff2?v=3.19") format("woff2");
 }
 
 :root {
   --font-stack-fallback: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-stack: "Cabin", var(--font-stack-fallback);
+  --font-stack: "Inter var", var(--font-stack-fallback);
 
   /* display - large */
   --md-sys-typescale-display-large-font-family-name: var(--font-stack);

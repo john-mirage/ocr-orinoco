@@ -1,0 +1,36 @@
+.web-feature {
+  --_feature-title-font-family: var(--md-sys-typescale-title-large-font-family-name);
+  --_feature-title-font-weight: var(--md-sys-typescale-title-large-font-weight);
+  --_feature-title-font-size: var(--md-sys-typescale-title-large-font-size);
+  --_feature-title-line-height: var(--md-sys-typescale-title-large-line-height);
+  --_feature-title-letter-spacing: var(--md-sys-typescale-title-large-letter-spacing);
+  --_feature-title-color: var(--md-sys-color-on-surface);
+
+  --_feature-description-font-family: var(--md-sys-typescale-body-medium-font-family-name);
+  --_feature-description-font-weight: var(--md-sys-typescale-body-medium-font-weight);
+  --_feature-description-font-size: var(--md-sys-typescale-body-medium-font-size);
+  --_feature-description-line-height: var(--md-sys-typescale-body-medium-line-height);
+  --_feature-description-letter-spacing: var(--md-sys-typescale-body-medium-letter-spacing);
+  --_feature-description-color: var(--md-sys-color-on-surface-variant);
+
+  display: block;
+}
+
+.web-feature__title {
+  margin-bottom: 1rem;
+  font-family: var(--_feature-title-font-family);
+  font-weight: var(--_feature-title-font-weight);
+  font-size: var(--_feature-title-font-size);
+  line-height: var(--_feature-title-line-height);
+  letter-spacing: var(--_feature-title-letter-spacing);
+  color: var(--_feature-title-color);
+}
+
+.web-feature__description {
+  font-family: var(--_feature-description-font-family);
+  font-weight: var(--_feature-description-font-weight);
+  font-size: var(--_feature-description-font-size);
+  line-height: var(--_feature-description-line-height);
+  letter-spacing: var(--_feature-description-letter-spacing);
+  color: var(--_feature-description-color);
+}

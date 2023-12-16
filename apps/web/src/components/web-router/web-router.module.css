@@ -1,0 +1,14 @@
+.web-router {
+  --_router-background-color: var(--md-sys-color-background);
+
+  display: block;
+  overflow: hidden;
+  background-color: var(--_router-background-color);
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  .web-router {
+    transition-property: background-color;
+    transition-duration: 150ms;
+  }
+}

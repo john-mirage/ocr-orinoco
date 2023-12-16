@@ -1,0 +1,20 @@
+.web-product-list {
+  --_product-list-title-font-family: var(--md-sys-typescale-headline-medium-font-family-name);
+  --_product-list-title-font-weight: var(--md-sys-typescale-headline-medium-font-weight);
+  --_product-list-title-font-size: var(--md-sys-typescale-headline-medium-font-size);
+  --_product-list-title-line-height: var(--md-sys-typescale-headline-medium-line-height);
+  --_product-list-title-letter-spacing: var(--md-sys-typescale-headline-medium-letter-spacing);
+  --_product-list-title-color: var(--md-sys-color-on-background);
+
+  display: block;
+}
+
+.web-product-list__title {
+  margin-bottom: 2rem;
+  font-family: var(--_product-list-title-font-family);
+  font-weight: var(--_product-list-title-font-weight);
+  font-size: var(--_product-list-title-font-size);
+  line-height: var(--_product-list-title-line-height);
+  letter-spacing: var(--_product-list-title-letter-spacing);
+  color: var(--_product-list-title-color);
+}

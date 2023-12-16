@@ -1,0 +1,10 @@
+.web-product-gallery {
+  display: block;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.web-product-gallery__button {
+  display: block;
+  width: 100%;
+}

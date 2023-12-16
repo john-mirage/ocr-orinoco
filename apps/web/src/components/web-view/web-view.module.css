@@ -1,0 +1,12 @@
+.web-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding-top: 4rem;
+}
+
+.web-view__page {
+  flex: 1;
+  margin-bottom: 6rem; /* 96px */
+}

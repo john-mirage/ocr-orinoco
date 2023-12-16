@@ -1,0 +1,38 @@
+.web-badge {
+  --_badge-size: 1.25rem; /* 20px */
+  --_badge-padding: 0,375rem; /* 6px */
+  --_badge-border-radius: 9999px;
+  --_badge-background-color: var(--md-sys-color-tertiary);
+  --_badge-color: var(--md-sys-color-on-tertiary);
+  --_badge-font-family: var(--md-sys-typescale-label-medium-font-family-name);
+  --_badge-font-weigth: var(--md-sys-typescale-label-medium-font-weight);
+  --_badge-font-size: var(--md-sys-typescale-label-medium-font-size);
+  --_badge-line-height: var(--md-sys-typescale-label-medium-line-height);
+  --_badge-letter-spacing: var(--md-sys-typescale-label-medium-letter-spacing);
+  --_badge-transition-duration: 150ms;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: var(--_badge-size);
+  height: var(--_badge-size);
+  padding: 0 var(--_badge-padding);
+  border-radius: var(--_badge-border-radius);
+  background-color: var(--_badge-background-color);
+}
+
+.web-badge__label {
+  font-family: var(--_badge-font-family);
+  font-weight: var(--_badge-font-weigth);
+  font-size: var(--_badge-font-size);
+  line-height: var(--_badge-line-height);
+  letter-spacing: var(--_badge-letter-spacing);
+  color: var(--_badge-color);
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  .web-badge {
+    transition-property: background-color;
+    transition-duration: var(--_badge-transition-duration);
+  }
+}
